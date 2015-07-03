@@ -19,177 +19,178 @@
         </header>
         <br>
     </section>
-
 <body>
-<!-- Chapter 1 -->
-        <section>
-                <h2>Chapter 1 - <strong>History of the markup language</strong></h2>
-                <ul>
-                    <li>HTML is the unifying Language of the World Wide Web and HTML5 is the latest iteration of this lingua franca</li>
-                    <li>There was never anything such as HTML 1. The official specifications was HTML 2.0, published by IETF</li>
-                    <li>W3C then published XHTML 1.1. It couldn't be served with a mime-type text/html, simply reformulated as XML</li>
-                    <li>XHTML 2 was thus introduced. It lacked backwards compatibility with the existing web content or even previous versions of HTML.</li>
-                    <li><strong>WHATWG</strong> started developing HTML5 as the W3C continued working on XHTML 2</li>
-                    <li>HTML5 it's an evolutionary rather than revolutionary in the ongoing story of markup</li>
-                </ul>
+<section>
+    <section>
+            <h2>Chapter 1 - <strong>History of the markup language</strong></h2>
+            <ul>
+                <li>HTML is the unifying Language of the World Wide Web and HTML5 is the latest iteration of this lingua franca</li>
+                <li>There was never anything such as HTML 1. The official specifications was HTML 2.0, published by IETF</li>
+                <li>W3C then published XHTML 1.1. It couldn't be served with a mime-type text/html, simply reformulated as XML</li>
+                <li>XHTML 2 was thus introduced. It lacked backwards compatibility with the existing web content or even previous versions of HTML.</li>
+                <li><strong>WHATWG</strong> started developing HTML5 as the W3C continued working on XHTML 2</li>
+                <li>HTML5 it's an evolutionary rather than revolutionary in the ongoing story of markup</li>
+            </ul>
 
-        </section>
-        <!-- Chapter 2 -->
-        <section>
-                <header>
-                    <h2>Chapter 2 - <strong>The design on HTML5</strong></h2>
-                </header>
-                <ul>
-                    <li>After the fog of confusion between <strong>WHATWG</strong> and W3C there was a lot to learn</li>
-                    <li>W3C learnt a lesson from post-revolutionary France:changing existing behavior is very, very difficult.</li>
-                </ul>
-                <h4>Design Principles</h4>
-                <ul>
-                    <li>HTML5 provides support for previous content</li>
-                    <li>Do not reinvent the wheel</li>
-                    <li>Pave the cow paths. "If it is not broken, do not fix it"</li>
-                </ul>
-                <h4>Error Handling</h4>
-                <ul>
-                    <li>The HTML5 specification doesn’t just declare what browsers should do when they are processing well-formed markup.</li>
-                    <li>It also defines what browsers should do when they are dealing with badly formed documents.</li>
-                </ul>
-                <h4>Changes in HTML5</h4>
-                <ul>
-                    <li>Declaring the DOCTYPE became simpler: <!DOCTYPE html> </li>
-                    <li>Documents character encoding declaration changed to <strong>&lt;script src="index.js"&gt;&lt;/script&gt;</strong></li>
-                    <li>Script and the Link tag changed to <strong>&lt;script src="index.js"&gt;&lt;/script&gt;</strong> and <strong>&lt; link rel= "stylesheet" href="index.css"&gt;</strong></li>
-                </ul>
-                <h4>We dont use that kind of language</h4>
-                <ul>
-                    <li>Some elements  have not just become depreciated, they have been rendered obsolete.
-                    <li>Obsolete elements include :-
-                        <ul>
-                                <li>frame</li>
-                                <li>frameset</li>
-                                <li>noframes</li>
-                                <li>acronym use abbr</li>
-                                <li>font</li>
-                                <li>big</li>
-                                <li>center</li>
-                        </ul>
-                    </li>
+    </section>
+    <section>
+            <header>
+                <h2>Chapter 2 - <strong>The design on HTML5</strong></h2>
+            </header>
+            <ul>
+                <li>After the fog of confusion between <strong>WHATWG</strong> and W3C there was a lot to learn</li>
+                <li>W3C learnt a lesson from post-revolutionary France:changing existing behavior is very, very difficult.</li>
+            </ul>
+            <h4>Design Principles</h4>
+            <ul>
+                <li>HTML5 provides support for previous content</li>
+                <li>Do not reinvent the wheel</li>
+                <li>Pave the cow paths. "If it is not broken, do not fix it"</li>
+            </ul>
+            <h4>Error Handling</h4>
+            <ul>
+                <li>The HTML5 specification doesn’t just declare what browsers should do when they are processing well-formed markup.</li>
+                <li>It also defines what browsers should do when they are dealing with badly formed documents.</li>
+            </ul>
+            <h4>Changes in HTML5</h4>
+            <ul>
+                <li>Declaring the DOCTYPE became simpler: &lt;<!DOCTYPE html>&lt; </li>
+                <li>Documents character encoding declaration changed to <strong>&lt;script src="index.js"&gt;&lt;/script&gt;</strong></li>
+                <li>Script and the Link tag changed to <strong>&lt;script src="index.js"&gt;&lt;/script&gt;</strong> and <strong>&lt; link rel= "stylesheet" href="index.css"&gt;</strong></li>
+            </ul>
+            <h4>We dont use that kind of language</h4>
+            <ul>
+                <li>Some elements  have not just become depreciated, they have been rendered obsolete.
+                <li>Obsolete elements include :-
+                    <ul>
+                            <li>frame</li>
+                            <li>frameset</li>
+                            <li>noframes</li>
+                            <li>acronym use abbr</li>
+                            <li>font</li>
+                            <li>big</li>
+                            <li>center</li>
+                    </ul>
+                </li>
 
-                    <li>The a element is now without doubt the most important element in HTML</li>
-                    <li>Shiny new toys began being born -: HTML5 APIs - very powerful for web designers</li>
-                </ul>
-        </section>
+                <li>The a element is now without doubt the most important element in HTML</li>
+                <li>Shiny new toys began being born -: HTML5 APIs - very powerful for web designers</li>
+            </ul>
+    </section>
         <!-- Chapter 3-->
-        <section>
-            <h2>Chapter 3 - <strong>Rich Media</strong></h2>
-                <article>
-                    <div>
-                        <h3>Canvas</h3>
-                        Sample Image Without Canvas
-                        <img src="image/placeholder.png" alt="Sample Image">
-                        <br>
-                        Sample Image With Canvas
-                            <canvas id="myCanvas"  height="50" width="50">
-                                <p>Your browser does not support the canvas tag.</p>
-                                <img src="images/mbuki.jpg" alt="My Picture">
-                            </canvas>
-                        <h3>Media</h3>
-                            <h4>Audio</h4>
-                            <audio controls="controls">
-                                <source src="media/Uwezo.mp3" type="audio/mp3" />
-                                Your browser does not support the audio element.
-                            </audio>
-                            <h4>Video</h4>
-                            <video width="420" height="320" controls="controls" poster="placeholder.jpg">
-                                <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4"/>
-                                Your browser does not support the audio element.
-                            </video>
-                    </div>
-                </article>
-        </section>
+    <section>
+        <h2>Chapter 3 - <strong>Rich Media</strong></h2>
+            <article>
+                <div>
+                    <h3>Canvas</h3>
+                    Sample Image Without Canvas
+                    <img src="image/placeholder.png" alt="Sample Image">
+                    <br>
+                    Sample Image With Canvas
+                        <canvas id="myCanvas"  height="50" width="50">
+                            <p>Your browser does not support the canvas tag.</p>
+                            <img src="images/mbuki.jpg" alt="My Picture">
+                        </canvas>
+                    <h3>Media</h3>
+                        <h4>Audio</h4>
+                        <audio controls="controls">
+                            <source src="media/Uwezo.mp3" type="audio/mp3" />
+                            Your browser does not support the audio element.
+                        </audio>
+                        <h4>Video</h4>
+                        <video width="420" height="320" controls="controls" poster="placeholder.jpg">
+                            <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4"/>
+                            Your browser does not support the audio element.
+                        </video>
+                </div>
+            </article>
+    </section>
         <!-- Chapter 4-->
-        <section>
-            <h2>Chapter 4 - <strong>Web Forms 2.0</strong></h2>
-                <ul>
-                    <li>Image rollovers</li>
-                    <li>Form Enhancements</li>
-                </ul>
-                <form role="form" novalidate>
+    <section>
+        <h2>Chapter 4 - <strong>Web Forms 2.0</strong></h2>
+            <ul>
+                <li>Image rollovers</li>
+                <li>Form Enhancements</li>
+            </ul>
+            <form role="form" novalidate>
+                <fieldset>
+                    <legend>Form Design</legend>
                   <label for="inpEmail">Email address :</label>
                   <input type="email" id="inpEmail" placeholder="Enter email">
                     <br>
-                    <label>Web Browsers :</label>
-                    <input list="browsers">
-                        <datalist id="browsers">
-                          <option value="Internet Explorer" >
-                          <option value="Firefox" >
-                          <option value="Chrome" >
-                          <option value="Opera" >
-                          <option value="Safari" >
+                    <label for="source">How did you hear about us?</label>
+                        <datalist id="sources">
+                            <select name="source">
+                                <option>please choose...</option>
+                                <option value="television">Television</option>
+                                <option value="radio">Radio</option>
+                                <option value="newspaper">Newspaper</option>
+                                <option>Other</option>
+                            </select>
+                            If other, please specify:
                         </datalist>
-                    <br>
+                        <input id="source" name="source" list="sources">
                     <label for="color">A color :</label>
                     <input id="color" type="color">
                     <br>
                     <label>A Date :</label>
                     <input id="date" type="date">
                     <br/>
-                </form>
-        </section>
-        <!-- Chapter 5-->
-        <section>
-            <h2>Chapter 5 - <strong>Semantics</strong></h2>
-            <h4>Extensibility</h4>
-                <ul>
-                    <li>Extensibility is about adding more semantic value to elements using the class attribute.</li>
-                    <li>New inline elements. This is <mark>highlighted</mark>.</li>
-                    <li>Your profile is 80
-                    <progress max="100" value="80">80%</progress>
-                    complete.
-                </ul>
-
-            <h4>Microformats</h4>
-                <ul>
-                    <li>Microformats are a set of conventions which are agreed upon by a community.</li>
-                    <li>They are used with classes to extend the HTML5 attributes.</li>
-                    <li>However, they are limited by design. They solve 80% of the use cases with 20% of the effort.</li>
-                </ul>
-            <h4>Structure</h4>
-                <p>HTML5 introduces new structural elements that includes</p>
-                    <ul>
-                        <li>Section</li>
-                        <li>Header</li>
-                        <li>Footer</li>
-                        <li>Aside</li>
-                        <li>Nav</li>
-                        <li>Article</li>
-                    </ul>
-                <p>Caution: Do not replace the new structural element without first thinking of the content.</p>
-
-            <h4>Content Models</h4>
-            <p>The new structural elements introduce a completely new content model called “sectioning content.”</p>
+                    </fieldset>
+            </form>
+    </section>
+    <section>
+        <h2>Chapter 5 - <strong>Semantics</strong></h2>
+        <h4>Extensibility</h4>
             <ul>
-                <li>Sectioning Content</li>
-                <li>Grouping Contents</li>
-                <li>Embedded Content</li>
-                <li>Text level  Semantics etc</li>
+                <li>Extensibility is about adding more semantic value to elements using the class attribute.</li>
+                <li>New inline elements. This is <mark>highlighted</mark>.</li>
+                <li>Your profile is 80
+                <progress max="100" value="80">80%</progress>
+                complete.
+            </ul>
+
+        <h4>Microformats</h4>
+            <ul>
+                <li>Microformats are a set of conventions which are agreed upon by a community.</li>
+                <li>They are used with classes to extend the HTML5 attributes.</li>
+                <li>However, they are limited by design. They solve 80% of the use cases with 20% of the effort.</li>
+            </ul>
+        <h4>Structure</h4>
+            <p>HTML5 introduces new structural elements that includes</p>
+                <ul>
+                    <li>Section</li>
+                    <li>Header</li>
+                    <li>Footer</li>
+                    <li>Aside</li>
+                    <li>Nav</li>
+                    <li>Article</li>
+                </ul>
+            <p>Caution: Do not replace the new structural element without first thinking of the content.</p>
+
+        <h4>Content Models</h4>
+        <p>The new structural elements introduce a completely new content model called “sectioning content.”</p>
+        <ul>
+            <li>Sectioning Content</li>
+            <li>Grouping Contents</li>
+            <li>Embedded Content</li>
+            <li>Text level  Semantics etc</li>
+
+        </ul>
+    </section>
+    <section>
+        <h2>Chapter 6- <strong>Using HTML5 Today</strong></h2>
+        <article>
+            <ul>
+                <li>Styling - Now you can style your to your heart’s content.  </li>
+
+                <li>ARIA(Accessible Rich Internet Applications)- allows assistive technology to participate fully in all-singing, all-dancing Ajax interactions. </li>
+                <li>Validation - A very powerful tool to assist web developers</li>
+                <li>Future detection - The use of a modernizer script to determine whether the browser supports a particular input type or not: </li>
 
             </ul>
-        </section>
-        <!-- Chapter 6-->
-        <section>
-            <h2>Chapter 6- <strong>Using HTML5 Today</strong></h2>
-            <article>
-                <ul>
-                    <li>Styling - Now you can style your to your heart’s content.  </li>
-
-                    <li>ARIA(Accessible Rich Internet Applications)- allows assistive technology to participate fully in all-singing, all-dancing Ajax interactions. </li>
-                    <li>Validation - A very powerful tool to assist web developers</li>
-                    <li>Future detection - The use of a modernizer script to determine whether the browser supports a particular input type or not: </li>
-
-                </ul>
-            </article>
-        </section>
-
+        </article>
+    </section>
+</section>
 </body>
 </html>
