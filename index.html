@@ -5,12 +5,10 @@
     <title>Semantically Correct HTML 5</title>
     <link href="css/html5.css" rel="stylesheet" />
 </head>
+<body>
 <section>
     <header class="header">
-        <hgroup>
-            <h1 align="center">HTML5 FOR WEB DESIGNERS</h1>
-            <h2 align="center">By <em>Jeremy Keith</em></h2>
-        </hgroup>
+            <h1>HTML5 FOR WEB DESIGNERS by <em>Jeremy Keith</em></h1>
     <nav>
         <ul>
             <li><a href="#">Menu Option 1</a></li>
@@ -37,7 +35,7 @@
                 </ul>
         </article>
     </section>
-    <!----- Chapter 2 -->
+    <!-- Chapter 2 -->
     <section>
         <article>
             <header>
@@ -61,8 +59,8 @@
             <h4>Changes in HTML5</h4>
             <ul>
                 <li>Declaring the DOCTYPE became simpler: <!DOCTYPE html> </li>
-                <li>Documents character encoding declaration changed to <meta charset="UTF-8"></li>
-                <li>Script and the Link tag changed to <script src="index.js"></script> and < link rel= "stylesheet" href="index.css"> respectively</li>
+                <li>Documents character encoding declaration changed to <strong>&lt;script src="index.js"&gt;&lt;/script&gt;</strong></li>
+                <li>Script and the Link tag changed to <strong>&lt;script src="index.js"&gt;&lt;/script&gt;</strong> and <strong>&lt; link rel= "stylesheet" href="index.css"&gt;</strong></li>
             </ul>
             <h4>We dont use that kind of language</h4>
             <ul>
@@ -84,7 +82,7 @@
             </ul>
         </article>
     </section>
-    <!--Chapter 3-->
+    <!-- Chapter 3-->
     <section>
         <article>
             <header>
@@ -98,9 +96,9 @@
                     <img src="image/placeholder.png" alt="Sample Image">
                     <br>
                     Sample Image With Canvas
-                        <canvas id="myCanvas" src="/images/placeholder.png" height="50" width="50">
+                        <canvas id="myCanvas"  height="50" width="50">
                             <p>Your browser does not support the canvas tag.</p>
-                            <img src="images/mbuki.jpg">
+                            <img src="images/mbuki.jpg" alt="My Picture">
                         </canvas>
                     <h3>Media</h3>
                         <h4>Audio</h4>
@@ -117,51 +115,43 @@
             </section>
         </article>
     </section>
-<!----Chapter 4-->
+<!-- Chapter 4-->
     <section>
         <article>
             <header>
-                <h2>Chapter 4- <strong>Web Forms</strong></h2>
+                <h2>Chapter 4 - <strong>Web Forms 2.0</strong></h2>
             </header>
-            <section>
                 <ul>
-                    <li>Several elements that can be used to enhance forms were introduced. </li>
-                    <ul>
-                        <li>Image rollovers</li>
-                        <li>Form Enhancements</li>
-                    </ul>
-                    <form role="form" novalidate>
-                      <label for="inpEmail">Email address</label>
-                      <input type="email" id="inpEmail" placeholder="Enter email">
-                        <label for="inpChocType">Chocolates</label>
-                        <input type="text" id="inpChocType" list="chocType">
-                        <datalist id="chocType">
-                          <option value="white" />
-                          <option value="milk" />
-                          <option value="dark" />
-                        </datalist>
-                        <br>
-                        <label for="color">A color</label>
-                        <input id="color" type="color">
-                        <input type="color" value="#b97a57">
-                        <br>
-                        <label for="date">A Date</label>
-                        <input type="date" value="2011-06-08">
-                        <br/>
-                        <label for="datetime">A Date-Time</label>
-                        <input type="datetime" value="2011-06-09 T20:35:34.32">
-                        <br>
-                        <label for="localtime">Local Time</label>
-                        <input type="datetime-local" value="2011-06-09T22:41">
-                        <br>
-
-                    </form>
-
+                    <li>Image rollovers</li>
+                    <li>Form Enhancements</li>
                 </ul>
-            </section>
+                <form role="form" novalidate>
+                  <label for="inpEmail">Email address</label>
+                  <input type="email" id="inpEmail" placeholder="Enter email">
+                    <label for="inpChocType">Chocolates</label>
+                    <input type="text" id="inpChocType" list="chocType">
+                    <datalist id="chocType">
+                      <option value="white">
+                      <option value="milk">
+                      <option value="dark">
+                    </datalist>
+                    <br>
+                    <label for="color">A color</label>
+                    <input id="color" type="color">
+                    <br>
+                    <label>A Date</label>
+                    <input type="date" value="2011-06-08">
+                    <br/>
+                    <label>A Date-Time</label>
+                    <input type="datetime" value="2011-06-09 T20:35:34.32">
+                    <br>
+                    <label>Local Time</label>
+                    <input type="datetime-local" value="2011-06-09T22:41">
+                    <br>
+                </form>
         </article>
     </section>
-<!--Chapter 5-->
+<!-- Chapter 5-->
     <section>
         <article>
             <header>
@@ -172,7 +162,7 @@
                     <li>Extensibility is about adding more semantic value to elements using the class attribute.</li>
                     <li>New inline elements. This is <mark>highlighted</mark>.</li>
                     <li>Your profile is 80
-                    <progress min="0" max="100" value="80">80%</progress>
+                    <progress max="100" value="80">80%</progress>
                     complete.
                 </ul>
 
@@ -183,7 +173,7 @@
                     <li>However, they are limited by design. They solve 80% of the use cases with 20% of the effort.</li>
                 </ul>
             <h4>Structure</h4>
-             <li>HTML5 introduces new structural elements that includes:</li>
+                <p>HTML5 introduces new structural elements that includes</p>
                     <ul>
                         <li>Section</li>
                         <li>Header</li>
@@ -192,10 +182,10 @@
                         <li>Nav</li>
                         <li>Article</li>
                     </ul>
-            <li>Caution: Do not replace the new structural element without first thinking of the content.</li>
+                <p>Caution: Do not replace the new structural element without first thinking of the content.</p>
 
             <h4>Content Models</h4>
-            <li>The new structural elements introduce a completely new content model called “sectioning content.”</li>
+            <p>The new structural elements introduce a completely new content model called “sectioning content.”</p>
             <ul>
                 <li>Sectioning Content</li>
                 <li>Grouping Contents</li>
@@ -206,7 +196,7 @@
         </article>
 
     </section>
-<!--Chapter 6-->
+<!-- Chapter 6-->
     <section>
         <article>
             <header>
@@ -216,7 +206,7 @@
                 <ul>
                     <li>Styling - Now you can style your to your heart’s content.  </li>
 
-                    <li>ARIA(Accessible Rich Internet Applications)- allows assistive technology to par- ticipate fully in all-singing, all-dancing Ajax interactions. </li>
+                    <li>ARIA(Accessible Rich Internet Applications)- allows assistive technology to participate fully in all-singing, all-dancing Ajax interactions. </li>
                     <li>Validation - A very powerful tool to assist web developers</li>
                     <li>Future detection - The use of a modernizer script to determine whether the browser supports a particular input type or not: </li>
 
