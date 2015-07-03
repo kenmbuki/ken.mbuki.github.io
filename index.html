@@ -5,21 +5,18 @@
     <title>Semantically Correct HTML 5</title>
     <link href="css/html5.css" rel="stylesheet" />
 </head>
-<section>
-        <header class="header">
-                <h1>HTML5 FOR WEB DESIGNERS by <em>Jeremy Keith</em></h1>
-        <nav>
-            <ul>
-                <li><a href="#">Menu Option 1</a></li>
-                <li><a href="#">Menu Option 2</a></li>
-                <li><a href="#">Menu Option 3</a></li>
-            </ul>
-        </nav>
-        </header>
-        <br>
-    </section>
 <body>
 <section>
+    <header class="header">
+            <h1>HTML5 FOR WEB DESIGNERS by <em>Jeremy Keith</em></h1>
+    <nav>
+        <ul>
+            <li><a href="#">Menu Option 1</a></li>
+            <li><a href="#">Menu Option 2</a></li>
+            <li><a href="#">Menu Option 3</a></li>
+        </ul>
+    </nav>
+    </header>
     <section>
             <h2>Chapter 1 - <strong>History of the markup language</strong></h2>
             <ul>
@@ -53,9 +50,9 @@
             </ul>
             <h4>Changes in HTML5</h4>
             <ul>
-                <li>Declaring the DOCTYPE became simpler: <strong>&lt;<!DOCTYPE html>t&gt;</strong>
-                <li>Documents character encoding declaration changed to <strong>&lt;script src="index.js"&gt;&lt;/script&gt;</strong></li>
-                <li>Script and the Link tag changed to <strong>&lt;script src="index.js"&gt;&lt;/script&gt;</strong> and <strong>&lt; link rel= "stylesheet" href="index.css"&gt;</strong></li>
+                <li>Declaring the DOCTYPE became simpler: <pre>!DOCTYPE html</pre></li>
+                <li>Documents character encoding declaration changed to <pre>meta charset="UTF-8"</pre></li>
+                <li>Script and the Link tag changed to <pre>type="text/javascript"</pre> and  <pre>type="text/css"</pre></li>
             </ul>
             <h4>We dont use that kind of language</h4>
             <ul>
@@ -179,7 +176,6 @@
         <h2>Chapter 6- <strong>Using HTML5 Today</strong></h2>
             <ul>
                 <li>Styling - Now you can style your to your heart’s content.  </li>
-
                 <li>ARIA(Accessible Rich Internet Applications)- allows assistive technology to participate fully in all-singing, all-dancing Ajax interactions. </li>
                 <li>Validation - A very powerful tool to assist web developers</li>
                 <li>Future detection - The use of a modernizer script to determine whether the browser supports a particular input type or not: </li>
