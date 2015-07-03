@@ -5,7 +5,7 @@
     <title>Semantically Correct HTML 5</title>
     <link href="css/html5.css" rel="stylesheet" />
 </head>
-<body>
+
 <section>
     <header class="header">
             <h1>HTML5 FOR WEB DESIGNERS by <em>Jeremy Keith</em></h1>
@@ -18,19 +18,19 @@
     </nav>
     </header>
     <br>
-    </section>
+</section>
+
+<body>
     <!-- Chapter 1 -->
     <section>
         <article>
-            <header>
                 <h2>Chapter 1 - <strong>History of the markup language</strong></h2>
-            </header>
                 <ul>
                     <li>HTML is the unifying Language of the World Wide Web and HTML5 is the latest iteration of this lingua franca</li>
                     <li>There was never anything such as HTML 1. The official specifications was HTML 2.0, published by IETF</li>
                     <li>W3C then published XHTML 1.1. It couldn't be served with a mime-type text/html, simply reformulated as XML</li>
                     <li>XHTML 2 was thus introduced. It lacked backwards compatibility with the existing web content or even previous versions of HTML.</li>
-                    <li>WHATWG started developing HTML5 as the W3C continued working on XHTML 2</li>
+                    <li><strong>WHATWG</strong> started developing HTML5 as the W3C continued working on XHTML 2</li>
                     <li>HTML5 it's an evolutionary rather than revolutionary in the ongoing story of markup</li>
                 </ul>
         </article>
@@ -42,7 +42,7 @@
                 <h2>Chapter 2 - <strong>The design on HTML5</strong></h2>
             </header>
             <ul>
-                <li>After the fog of confusion between WHATWG and W3C there was a lot to learn</li>
+                <li>After the fog of confusion between <strong>WHATWG</strong> and W3C there was a lot to learn</li>
                 <li>W3C learnt a lesson from post-revolutionary France:changing existing behavior is very, very difficult.</li>
             </ul>
             <h4>Design Principles</h4>
@@ -126,37 +126,32 @@
                     <li>Form Enhancements</li>
                 </ul>
                 <form role="form" novalidate>
-                  <label for="inpEmail">Email address</label>
+                  <label for="inpEmail">Email address :</label>
                   <input type="email" id="inpEmail" placeholder="Enter email">
-                    <label for="inpChocType">Chocolates</label>
-                    <input type="text" id="inpChocType" list="chocType">
-                    <datalist id="chocType">
-                      <option value="white">
-                      <option value="milk">
-                      <option value="dark">
-                    </datalist>
                     <br>
-                    <label for="color">A color</label>
+                    <label>Web Browsers :</label>
+                    <input list="browsers">
+                        <datalist id="browsers">
+                          <option value="Internet Explorer">
+                          <option value="Firefox">
+                          <option value="Chrome">
+                          <option value="Opera">
+                          <option value="Safari">
+                        </datalist>
+                    <br>
+                    <label for="color">A color :</label>
                     <input id="color" type="color">
                     <br>
-                    <label>A Date</label>
-                    <input type="date" value="2011-06-08">
+                    <label>A Date :</label>
+                    <input id="date" type="date">
                     <br/>
-                    <label>A Date-Time</label>
-                    <input type="datetime" value="2011-06-09 T20:35:34.32">
-                    <br>
-                    <label>Local Time</label>
-                    <input type="datetime-local" value="2011-06-09T22:41">
-                    <br>
                 </form>
         </article>
     </section>
 <!-- Chapter 5-->
     <section>
         <article>
-            <header>
                 <h2>Chapter 5 - <strong>Semantics</strong></h2>
-            </header>
             <h4>Extensibility</h4>
                 <ul>
                     <li>Extensibility is about adding more semantic value to elements using the class attribute.</li>
@@ -216,8 +211,8 @@
 
     </section>
 
-    <footer class="footer">
-        <p align="center">@SirMbuki - Copyright 2014</p>
+    <footer>
+        <p>@SirMbuki - Copyright 2014</p>
     </footer>
 </body>
 </html>
