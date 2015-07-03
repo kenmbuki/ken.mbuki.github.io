@@ -1,0 +1,98 @@
+html{
+    font-family: san-serif;
+}
+body {
+    margin:20;
+    padding 50px;
+}
+header > nav {
+    background-color: #0088cc;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+header > nav > ul {
+    list-style-type: none;
+    position: relative;
+    display: block;
+    font-size: 1.5em;
+}
+
+header > nav > ul > li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header > nav > ul > li> a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header > nav > ul > li> a:hover {
+    color: #cccccc;
+}
+nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  background-color:#0088cc;
+  border-color#0072ab;
+}
+nav > li {
+  position: relative;
+  display: block;
+
+article{
+}
+aside{
+}
+details,
+figcaption{
+}
+figure{
+}
+footer{
+}
+header{
+}
+hgroup{
+}
+main{
+}
+menu{
+}
+
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video{
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+
