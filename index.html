@@ -9,6 +9,7 @@
     <header class="header">
         <hgroup>
             <h1 align="center">HTML5 FOR WEB DESIGNERS</h1>
+            <h2 align="center">By <em>Jeremy Keith</em></h2>
         </hgroup>
     <nav>
         <ul>
@@ -63,7 +64,7 @@
                 <li>Documents character encoding declaration changed to <meta charset="UTF-8"></li>
                 <li>Script and the Link tag changed to <script src="index.js"></script> and < link rel= "stylesheet" href="index.css"> respectively</li>
             </ul>
-            <h4>We Dont use that kind of language</h4>
+            <h4>We dont use that kind of language</h4>
             <ul>
                 <li>Some elements  have not just become depreciated, they have been rendered obsolete.
                 <li>Obsolete elements include :-
@@ -93,6 +94,10 @@
             <section>
                 <div>
                     <h3>Canvas</h3>
+                    Sample Image Without Canvas
+                    <img src="image/placeholder.png" alt="Sample Image">
+                    <br>
+                    Sample Image With Canvas
                         <canvas id="myCanvas" src="/images/placeholder.png" height="50" width="50">
                             <p>Your browser does not support the canvas tag.</p>
                             <img src="images/mbuki.jpg">
@@ -138,6 +143,18 @@
                         <br>
                         <label for="color">A color</label>
                         <input id="color" type="color">
+                        <input type="color" value="#b97a57">
+                        <br>
+                        <label for="date">A Date</label>
+                        <input type="date" value="2011-06-08">
+                        <br/>
+                        <label for="datetime">A Date-Time</label>
+                        <input type="datetime" value="2011-06-09 T20:35:34.32">
+                        <br>
+                        <label for="localtime">Local Time</label>
+                        <input type="datetime-local" value="2011-06-09T22:41">
+                        <br>
+
                     </form>
 
                 </ul>
@@ -148,21 +165,44 @@
     <section>
         <article>
             <header>
-                <h2>Chapter 5- <strong>Semantics</strong></h2>
+                <h2>Chapter 5 - <strong>Semantics</strong></h2>
             </header>
-            <section>
-                    <h4>Extensibility</h4>
-                        <ul>
-                            <li>Extensibility is about adding more semantic value to elements using the class attribute. </li>
-                        </ul>
+            <h4>Extensibility</h4>
+                <ul>
+                    <li>Extensibility is about adding more semantic value to elements using the class attribute.</li>
+                    <li>New inline elements. This is <mark>highlighted</mark>.</li>
+                    <li>Your profile is 80
+                    <progress min="0" max="100" value="80">80%</progress>
+                    complete.
+                </ul>
 
-                    <li>New inline elements.  This is <mark>highlighted</mark>.</li>
-                    <li>Progress : <p><progress>60%</progress> complete.</p>
-                    <h4>Microformats</h4>
-                        <li>Microformats are a set of conventions which are agreed upon by a community.</li>
-                        <li>They are used with classes to extend the HTML5 attributes.</li>
-                        <li>However, they are limited by design. They solve 80% of the use cases with 20% of the effort.</li>
-            </section>
+            <h4>Microformats</h4>
+                <ul>
+                    <li>Microformats are a set of conventions which are agreed upon by a community.</li>
+                    <li>They are used with classes to extend the HTML5 attributes.</li>
+                    <li>However, they are limited by design. They solve 80% of the use cases with 20% of the effort.</li>
+                </ul>
+            <h4>Structure</h4>
+             <li>HTML5 introduces new structural elements that includes:</li>
+                    <ul>
+                        <li>Section</li>
+                        <li>Header</li>
+                        <li>Footer</li>
+                        <li>Aside</li>
+                        <li>Nav</li>
+                        <li>Article</li>
+                    </ul>
+            <li>Caution: Do not replace the new structural element without first thinking of the content.</li>
+
+            <h4>Content Models</h4>
+            <li>The new structural elements introduce a completely new content model called “sectioning content.”</li>
+            <ul>
+                <li>Sectioning Content</li>
+                <li>Grouping Contents</li>
+                <li>Embedded Content</li>
+                <li>Text level  Semantics etc</li>
+
+            </ul>
         </article>
 
     </section>
@@ -174,22 +214,20 @@
             </header>
             <section>
                 <ul>
-                    <li>Extensibility</li>
-                    <li>Microformats</li>
-                    <li>Structure</li>
+                    <li>Styling - Now you can style your to your heart’s content.  </li>
+
+                    <li>ARIA(Accessible Rich Internet Applications)- allows assistive technology to par- ticipate fully in all-singing, all-dancing Ajax interactions. </li>
+                    <li>Validation - A very powerful tool to assist web developers</li>
+                    <li>Future detection - The use of a modernizer script to determine whether the browser supports a particular input type or not: </li>
+
                 </ul>
             </section>
         </article>
 
     </section>
 
-
-
-
-
-
-    <footer>
-        <p>@SirMbuki - Copyright 2014</p>
+    <footer class="footer">
+        <p align="center">@SirMbuki - Copyright 2014</p>
     </footer>
 </body>
 </html>

@@ -2,7 +2,7 @@ html{
     font-family: san-serif;
 }
 body {
-    margin:20;
+    margin:30;
     padding 50px;
 }
 header > nav {
@@ -42,6 +42,10 @@ nav > li {
   position: relative;
   display: block;
 
+h1{
+font-size: 12px;
+}
+
 article{
 }
 aside{
@@ -51,7 +55,12 @@ figcaption{
 }
 figure{
 }
-footer{
+footer {
+    background-color: #0088cc;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color:#0088cc;
+    border-color#0072ab;
 }
 header{
 }
