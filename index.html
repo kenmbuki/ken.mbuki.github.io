@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Semantically Correct HTML 5</title>
+    <link href="css/html5.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <hgroup>
+            <h1>Header in h1</h1>
+            <h2>Subheader in h2</h2>
+        </hgroup>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Menu Option 1</a></li>
+            <li><a href="#">Menu Option 2</a></li>
+            <li><a href="#">Menu Option 3</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <header>
+                <h1>API</h1>
+            </header>
+            <section>
+                This is the first article.  This is <mark>highlighted</mark>.
+                <canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+            </section>
+        </article>
+        <article>
+            <header>
+                <h1>MEDIA</h1>
+            </header>
+            <section>
+                This is the second article.  These articles could be blog posts, etc.  
+                <div>
+                    <h4>Audio</h4>
+                    <audio controls="controls">
+                        <source src="media/Uwezo.mp3" type="audio/mp3" />
+                        Your browser does not support the audio element.
+                    </audio>
+
+                    <h4>Video</h4>
+                    <video width="320" height="240" controls="controls">
+
+                        <source src="media/Hezekiah.mp4" type="video/mp4"/>
+                        Your browser does not support the audio element.
+                    </video>
+                </div>
+            </section>
+        </article>
+    </section>
+    <aside>
+        <section>
+            <h1>Links</h1>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </section>
+        <figure>
+            <img width="85" height="85" 
+                src="images/mbuki.jpg"
+                alt="Ken Mbuki Photo" />
+            <figcaption>Sir Mbuki</figcaption>
+        </figure>
+    </aside>
+    <footer>@SirMbuki - Copyright 2014</footer>
+</body>
+</html>
